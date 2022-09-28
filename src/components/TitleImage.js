@@ -1,7 +1,11 @@
 import React from "react";
+import group from "../images/group_image.png";
+import "../styles/TitleImage.css";
 
 export default function TitleImage(){
     return(
-        <h1>Here goes TitleImage!</h1>
+        <div className="title-image bg-color">
+            <img src={group} alt="Group" className="bg-color"></img>
+        </div>
     )
 }

@@ -1,4 +1,4 @@
-body{
+.app{
     width: 550px;
     height: 690px;
     margin-top: 15px;
@@ -6,6 +6,6 @@ body{
     border-radius: 9px;
 }
 
-body, .bg-color{
+.app, .bg-color{
     background: #FFFFFF;
 }
