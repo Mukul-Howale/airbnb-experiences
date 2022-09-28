@@ -1,0 +1,12 @@
+.title-image{
+    width: 100%;
+    height: 232px;
+    margin-top: 10px;
+}
+
+.title-image > img{
+    width: 300px;
+    height: 180px;
+    margin-top: 22px;
+    margin-left: 118px;
+}
