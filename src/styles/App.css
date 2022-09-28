@@ -9,3 +9,7 @@
 .app, .bg-color{
     background: #FFFFFF;
 }
+
+.common-padding-left{
+    padding-left: 45px;
+}
