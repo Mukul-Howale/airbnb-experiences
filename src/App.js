@@ -1,19 +1,19 @@
 import React from 'react';
-import Navbar from "./components/Navbar.js";
-import TitleImage from "./components/TitleImage.js";
-import Description from "./components/Description.js";
-import Experiences from "./components/Experiences.js";
+import Navbar from './components/Navbar';
+import TitleImage from "./components/TitleImage";
+import Description from "./components/Description";
+import Experiences from "./components/Experiences";
 import './styles/App.css';
 
 function App() {
   return (
-    <div className='App'>
+    <>
       <Navbar/>
       <TitleImage/>
       <Description/>
       <Experiences/>
-    </div>
-  );
+    </>
+  )
 }
 
 export default App;
