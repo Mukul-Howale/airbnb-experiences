@@ -3,7 +3,9 @@ body{
     height: 690px;
     margin-top: 15px;
     margin-left: 32%;
+    border-radius: 9px;
+}
 
+body, .bg-color{
     background: #FFFFFF;
-    border-radius: 8.95px;
 }
