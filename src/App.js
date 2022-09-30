@@ -11,13 +11,7 @@ function App() {
     return (
       <Experiences
         key = {data.id}
-        thumbnail = {data.thumbnail}
-        rating = {data.rating}
-        review = {data.review}
-        location = {data.location}
-        title = {data.title}
-        price = {data.price}
-        openSpots = {data.openSpots}
+        data = {data}
       />
     )
   })
