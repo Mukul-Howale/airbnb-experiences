@@ -11,7 +11,7 @@ function App() {
     return (
       <Experiences
         key = {data.id}
-        data = {data}
+        {...data}
       />
     )
   })
