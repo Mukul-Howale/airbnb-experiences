@@ -3,24 +3,31 @@ import Navbar from './components/Navbar';
 import TitleImage from "./components/TitleImage";
 import Description from "./components/Description";
 import Experiences from "./components/Experiences";
-import swimmer from "./images/swimmer.png";
+import cardsData from "./Data";
 import './styles/App.css';
 
 function App() {
+  const card = cardsData.map(data => {
+    return (
+      <Experiences
+        key = {data.id}
+        thumbnail = {data.thumbnail}
+        rating = {data.rating}
+        review = {data.review}
+        location = {data.location}
+        title = {data.title}
+        price = {data.price}
+        openSpots = {data.openSpots}
+      />
+    )
+  })
   return (
     <div className='app'>
       <Navbar/>
       <TitleImage/>
       <Description/>
       <div className='cards'>
-        <Experiences
-          thumbnail = {swimmer}
-          rating = {5.0}
-          review = {6}
-          country = "USA"
-          title = "Life lessons with Katie Zaferes"
-          price = {136}
-        />
+        {card}
       </div>
     </div>
   )

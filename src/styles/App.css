@@ -15,6 +15,9 @@
 }
 
 .cards{
-    overflow: hidden;
+    overflow: scroll;
     display: flex;
+    border-radius: 9px;
 }
+
+.cards::-webkit-scrollbar { width: 0 !important }
