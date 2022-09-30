@@ -6,10 +6,15 @@
     border-radius: 9px;
 }
 
-.app, .bg-color{
+.app, .bg-color, .cards{
     background: #FFFFFF;
 }
 
 .common-padding-left{
     padding-left: 45px;
+}
+
+.cards{
+    overflow: hidden;
+    display: flex;
 }
